@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 4rem;
+}
+#page-1 {
+  background: url("./Bulgan_d4bfb8b44a.jpg");
+}
+#page-2 {
+  background: url("./8-nuur-Ovorhangai-scaled.jpg");
+}
+#page-3 {
+  background: url("./DJI_0082s.jpg") center center/cover;
+}
+#page-4 {
+  background: url("./DSC_3506.jpg");
+}
+#page-5 {
+  background: url("./Ulaanbaatar-Mongolia-Travel-9-scaled.webp") center
+    center/cover;
+}
+.page a {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: x-large;
+}
+.page p {
+  font-size: larger;
+}
+a:hover {
+  background-color: black;
+  color: white;
+}
